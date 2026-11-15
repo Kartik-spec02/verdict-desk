@@ -1,0 +1,36 @@
+{
+    "name": "Verdict Desk",
+    "short_name": "Verdict Desk",
+    "description": "Know your travel rights instantly. Flight delays, train cancellations, bus issues, cab disputes, hotel problems.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fdf8f1",
+    "theme_color": "#1d4ed8",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "logo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["travel", "utilities", "productivity"],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "New Rights Check",
+            "short_name": "New Check",
+            "description": "Start a new rights check",
+            "url": "/?view=checker",
+            "icons": [{ "src": "logo.svg", "sizes": "192x192" }]
+        },
+        {
+            "name": "My Cases",
+            "short_name": "Cases",
+            "description": "View saved cases",
+            "url": "/?view=cases",
+            "icons": [{ "src": "logo.svg", "sizes": "192x192" }]
+        }
+    ]
+}
